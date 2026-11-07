@@ -96,6 +96,30 @@
             <a href="faq.html">Common questions and missing-content checks</a>
           </li>
         </ul>
+        <h2 id="contact">Contact Riveldra support</h2>
+        <p>Send your theme question privately to Prosper Technologies. Include the steps that reproduce the problem and your theme version.</p>
+        <p class="notice"><strong>Pre-release support setup:</strong> delivery and acknowledgement verification is in progress. You can also email <a href="mailto:StableAI@gmx.com">StableAI@gmx.com</a>.</p>
+        <form class="support-form" action="https://formsubmit.co/StableAI@gmx.com" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="Riveldra support request">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_autoresponse" value="Prosper Technologies has received your Riveldra support request. Keep this acknowledgement for your records. If you need to add details, email StableAI@gmx.com and include your store URL. Please never send passwords or customer payment information.">
+          <input type="hidden" name="_next" value="https://prospertechnology.github.io/riveldra-docs/support-received.html">
+          <input type="hidden" name="Theme" value="Riveldra">
+          <label for="support-name">First and last name</label>
+          <input id="support-name" name="name" autocomplete="name" maxlength="120" required>
+          <label for="support-email">Email address</label>
+          <input id="support-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+          <label for="support-store">Store URL</label>
+          <input id="support-store" name="Store URL" type="url" placeholder="https://yourstore.myshopify.com" maxlength="500" required>
+          <label for="support-message">Description of the problem</label>
+          <textarea id="support-message" name="message" rows="7" maxlength="10000" required aria-describedby="support-privacy"></textarea>
+          <label for="support-screenshot">Screenshot (optional)</label>
+          <input id="support-screenshot" name="attachment" type="file" accept="image/png,image/jpeg,image/webp" aria-describedby="support-file-help">
+          <p id="support-file-help" class="small">PNG, JPG or WebP; maximum 10 MB. Remove customer information from screenshots.</p>
+          <p id="support-privacy" class="small">Your message and optional screenshot are processed by <a href="https://formsubmit.co/privacy.pdf">FormSubmit</a> and delivered to Prosper Technologies at StableAI@gmx.com. Never include passwords, access tokens or customer payment information.</p>
+          <button type="submit" class="button">Send support request</button>
+        </form>
+        <script src="support.js" defer></script>
         <h2 id="bugs">Report a reproducible bug</h2>
         <p>
           The public GitHub issue tracker is open for non-sensitive development
@@ -116,15 +140,6 @@
             >View public reports</a
           >
         </p>
-        <div class="notice">
-          <strong>Private merchant support is not open yet.</strong>
-          <p>
-            This pre-release support page does not yet provide a private contact
-            form, ticket delivery or an automatic acknowledgement service. Those
-            remain launch requirements. Do not post store credentials, access
-            tokens, customer data or private orders in public issues.
-          </p>
-        </div>
         <h2 id="scope">Support scope</h2>
         <p>
           This channel currently covers reproducible Riveldra theme behavior.
@@ -136,9 +151,7 @@
         <h2 id="privacy">About this documentation site</h2>
         <p>
           These pages run as a static GitHub Pages site. Prosper Technologies
-          has not added analytics, advertising trackers, cookies or a submission
-          form here. External GitHub and Shopify services have their own terms
-          and privacy practices. See
+          has not added analytics or advertising trackers. The support form uses FormSubmit for message delivery, screenshot handling, spam protection and acknowledgement emails. External GitHub, Shopify and FormSubmit services have their own terms and privacy practices. See
           <a
             href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
             >GitHub Pages data collection</a
@@ -156,7 +169,7 @@
         <p>ON THIS PAGE</p>
         <nav aria-label="On this page">
           <a href="#check">Check these first</a
-          ><a href="#bugs">Report a reproducible bug</a
+          ><a href="#contact">Contact support</a><a href="#bugs">Report a reproducible bug</a
           ><a href="#scope">Support scope</a
           ><a href="#privacy">About this documentation site</a>
         </nav>

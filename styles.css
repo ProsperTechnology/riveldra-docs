@@ -608,3 +608,9 @@ details:not(#docs-nav) p {
     transition: none;
   }
 }
+.support-form { display: grid; gap: 10px; margin: 28px 0 44px; }
+.support-form label { font-weight: 650; margin-top: 10px; }
+.support-form input:not([type="hidden"]), .support-form textarea { width: 100%; min-width: 0; padding: 12px; border: 1px solid #a5afb8; border-radius: 5px; font: inherit; color: #152637; background: #fff; }
+.support-form textarea { resize: vertical; }
+.support-form input:focus-visible, .support-form textarea:focus-visible { outline: 3px solid #a73f12; outline-offset: 3px; }
+.support-form .button { justify-self: start; cursor: pointer; font: inherit; }
