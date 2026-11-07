@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prospertechnology.github.io/forgepro-docs/sitemap.xml

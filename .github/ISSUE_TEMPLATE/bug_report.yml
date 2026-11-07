@@ -1,0 +1,40 @@
+name: Theme bug report
+description: Report a reproducible, non-sensitive ForgePro development issue.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a PUBLIC report. Do not include passwords, access tokens, private store URLs, customer data or private orders. Private merchant support is not open yet."
+  - type: input
+    id: version
+    attributes:
+      label: ForgePro version
+      placeholder: "0.9.0"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal example with no private information.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Attach a screenshot only if it contains no private information.
+    validations:
+      required: true
