@@ -14,7 +14,7 @@
       close();
       return;
     }
-    const found = (window.ForgeProDocsIndex || [])
+    const found = (window.RiveldraDocsIndex || [])
       .filter((page) =>
         (page.title + " " + page.text).toLocaleLowerCase().includes(query),
       )

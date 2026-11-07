@@ -1,5 +1,5 @@
 name: Theme bug report
-description: Report a reproducible, non-sensitive ForgePro development issue.
+description: Report a reproducible, non-sensitive Riveldra development issue.
 title: "[Bug]: "
 body:
   - type: markdown
@@ -8,8 +8,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: ForgePro version
-      placeholder: "0.9.0"
+      label: Riveldra version
+      placeholder: "0.9.1"
     validations:
       required: true
   - type: input

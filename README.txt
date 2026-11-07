@@ -1,4 +1,4 @@
-ForgePro documentation — Prosper Technologies
+Riveldra documentation — Prosper Technologies
 Public documentation only. No commercial theme Liquid, assets, source ZIPs, credentials or private test reports belong in this repository.
 Publish the main branch root with GitHub Pages. All pages use relative links for project-site hosting.
 Pages: overview, getting started, customization, technical data, FAQ, release notes and support.
